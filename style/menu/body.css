@@ -1,0 +1,20 @@
+.menu {
+    background-color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 320px;
+    height: 100%;
+
+    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+}
+
+.menu__container {
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

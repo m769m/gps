@@ -1,0 +1,11 @@
+.header__burger {
+    background-image: url("../../../img/elements/buttons/round-buttons/left-burger.svg");
+}
+
+.header__logo--img {
+    background-image: url("../../../img/blocks/header/logo.svg");
+}
+
+.header__search {
+    background-image: url("../../../img/elements/buttons/round-buttons/search.svg");
+}

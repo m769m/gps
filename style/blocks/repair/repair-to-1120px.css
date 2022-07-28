@@ -1,0 +1,45 @@
+@media screen and (min-width: 768px) {
+    .repair {
+        padding-bottom: 0;
+    }
+    
+        .repair__body {
+            padding: 24px 24px 0px 24px;
+        }
+
+            .repair__list {
+                display: block;
+
+                height: 180px;
+                overflow: hidden;
+            }
+        
+            .repair__list::after {
+                content: none;
+            }
+
+            .repair__pool {
+                flex-wrap: wrap;
+
+            }
+
+                .repair__pool--mg {
+                    margin-top: -16px;
+                    margin-left: -24px;
+                }
+
+                .repair__item {
+                    max-width: 224px;
+                    width: 100%;
+                }
+
+                .repair__item--mg {
+                    margin-top: 16px;
+                    margin-right: 0;
+                    margin-left: 24px;
+                }
+
+            .uncover-button {
+                display: block;
+            }
+}

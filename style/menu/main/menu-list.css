@@ -1,0 +1,67 @@
+.menu__list-name--position {
+    margin-top: 28px;
+}
+
+    .menu__item {
+        display: flex;
+
+    }
+
+    .menu__item::before {
+        margin-top: auto;
+        margin-bottom: auto;
+
+        content: "";
+
+        height: 0px;
+        width: 4px;
+
+        background: #41F6D7;
+
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        transition: all 0.1s ease-in-out;
+    }
+
+        .menu__item--mb-24px {
+            margin-bottom: 24px;
+        }
+
+        .menu__item--active::before {
+            height: 32px;
+        }
+
+        .menu__item--active > .menu__item-name {
+            color: #7E7E82;
+        }
+
+        .menu__item-name {
+            font-family: 'TT Lakes';
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+
+            letter-spacing: -0.2px;
+
+            color: #1B1C21;
+
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 20px;
+
+            transition: all 0.1s ease-in-out;
+        }
+
+    .menu__item:hover::before {
+        height: 32px;
+
+        transition: all 0.1s ease-in-out;
+    }
+
+    .menu__item:hover > .menu__item-name {
+        color: #7E7E82;
+
+        transition: all 0.1s ease-in-out;
+    }
+        

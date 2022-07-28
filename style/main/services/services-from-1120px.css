@@ -1,0 +1,42 @@
+@media screen and (min-width: 1120px) {
+    .services__list-button {
+        display: flex;
+    }
+
+    .services__header {
+        padding-top: 42px;
+        padding-bottom: 2px;
+        padding-right: 24px;
+    }
+
+    .services__header::before {
+        width: 3px;
+        border-radius: 2px;
+
+        margin-right: 30px;
+    }
+
+    .services__list-name {
+        padding-left: 33px;
+
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .services__item {
+        margin-top: 7px;
+    }
+
+    .services__item-info {
+        padding: 2px 29px 49px 34px;
+    }
+
+    .services__item-description {
+        width: 46.357%;
+        padding-top: 9px;
+    }
+
+    .services__item-expand {
+        margin-top: 14px;
+    }
+}

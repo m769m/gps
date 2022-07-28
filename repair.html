@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>slider</title>
+
+    <link rel="stylesheet" href="style/font.css">
+    <link rel="stylesheet" href="style/normalize.css">
+
+    <link rel="stylesheet" href="style/elements/buttons/round-button.css">
+    <link rel="stylesheet" href="style/elements/buttons/uncover-button.css">
+
+    <link rel="stylesheet" href="style/main/main.css">
+
+    <link rel="stylesheet" href="style/blocks/slider/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style/blocks/slider/swiper.css">
+
+    <link rel="stylesheet" href="style/blocks/repair/repair-to-768px.css">
+    <link rel="stylesheet" href="style/blocks/repair/repair-to-1120px.css">
+    <link rel="stylesheet" href="style/blocks/repair/repair-from-1120px.css">
+
+    <link rel="stylesheet" href="style/main/brends/brends-to-768px.css">
+    <link rel="stylesheet" href="style/main/brends/brends-to-1120px.css">
+    <link rel="stylesheet" href="style/main/brends/brends-from-1120px.css">
+</head>
+
+<body>
+    <main class="page">
+        <div class="brends repair">
+            <header class="repair__header repair__before">
+                <h1 class="repair__title repair__title--p16px">Ремонт техники различных
+                    брендов</h1>
+            </header>
+
+            <div class="repair__body">
+                <div class="swiper repair__list uncover-block" data-uncover-block="2">
+                    <ul class="swiper-wrapper repair__pool repair__pool--mg"></ul>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+                <a class="repair__uncover uncover-button uncover-button--open" href="" data-uncover-button="2">
+                    <figure class="uncover-button__card">
+                        <div class="brends__expand-img uncover-button__icon"></div>
+                        <figcaption class="uncover-button__text uncover-button__text--position">Читать далее
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <template id="brend-template">
+                    <li class="swiper-slide repair__item repair__item--mg">
+                        <a class="repair__card" href="">
+                            <div class="repair__icon"></div>
+                            <div class="repair__round-button round-button round-button--mt-auto"></div>
+                        </a>
+                    </li>
+                </template>
+            </div>
+        </div>
+    </main>
+    <script src="js/repair.js"></script>
+    <script src="js/uncover.js"></script>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>

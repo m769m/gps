@@ -1,0 +1,27 @@
+.header__burger {
+    background-image: url("../../img/elements/buttons/round-buttons/burger.svg");
+}
+
+.header__logo--img {
+    background-image: url("../../img/blocks/header/logo.svg");
+}
+
+.header__call {
+    background-image: url("../../img/elements/buttons/round-buttons/call.svg");
+}
+
+.header__chat {
+    background-image: url("../../img/elements/buttons/round-buttons/chat.svg");
+}
+
+.header__profile {
+    background-image: url("../../img/elements/buttons/round-buttons/profile.svg");
+}
+
+.header__repair {
+    background-image: url("../../img/elements/buttons/round-buttons/repair.svg");
+}
+
+.header__checkstatus {
+    background-image: url("../../img/elements/buttons/round-buttons/checkstatus.svg");
+}

@@ -1,0 +1,27 @@
+@media screen and (min-width: 768px) {
+    .header__body-high--position {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .header__row--hidden {
+        display: flex;
+    }
+
+    .header__menu--line-after::after {
+        content: "";
+
+        width: 2px;
+        height: 32px;
+
+        background: #EAEAEA;
+        border-radius: 1px;
+    }
+
+    .header__menu--line-after-position::after {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 4px;
+        margin-right: 20px;
+    }
+}

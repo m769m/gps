@@ -1,0 +1,104 @@
+.repair {
+    padding-bottom: 50px;
+}
+
+    .repair__header {
+        background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
+    }
+
+        .repair__before::before {
+            content: "";
+
+            display: block;
+            background: #D9FFF5;
+            height: 1px;
+        }
+
+        .repair__title {
+            font-family: 'TT Lakes';
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+
+            letter-spacing: -0.2px;
+            text-transform: uppercase;
+
+            color: #7E7E82;
+        }
+
+            .repair__title--p16px {
+                padding: 16px;
+            }
+
+    .repair__body {
+        padding: 16px 0px 16px 16px;
+    }
+
+        .repair__list {
+            display: flex;
+        }
+
+        .repair__list::after {
+            content: "";
+
+            position: absolute;
+            right: 0;
+            
+            width: 24px;
+            height: 72px;
+            
+            background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+            
+            z-index: 1000;
+        }
+
+            .repair__pool {
+                display: flex;
+            }
+
+            .repair__pool::-webkit-scrollbar {
+                display: none;
+                padding: 0;
+                margin: 0;
+                scrollbar-width: none;
+            }
+
+                .repair__item {
+                    max-width: 240px;
+
+                    cursor: pointer;
+                }
+
+                .repair__item--mg {
+                    margin-right: 16px;
+                }
+
+                    .repair__card {
+                        padding: 0;
+                        margin: 0;
+
+                        display: flex;
+                        justify-content: space-between;
+
+                        background-color: white;
+
+                        padding: 16px;
+
+                        border: 1px solid #EAEAEA;
+                        border-radius: 6px;
+                    }
+
+                        .repair__icon {
+                            flex-grow: 1;
+
+                            background-repeat: no-repeat;
+                            background-position: center left;
+                        }
+
+                        .repair__round-button {
+                            background-image: url("../../../img/blocks/repair/go.svg");
+                        }
+
+        .uncover-button {
+            display: none;
+        }

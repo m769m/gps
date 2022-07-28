@@ -1,0 +1,23 @@
+.round-button {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+}
+
+    .round-button--mt-auto {
+        margin-top: auto;
+    }
+
+    .round-button--mb-auto {
+        margin-bottom: auto;
+    }
+
+    .round-button--mr-16px {
+        margin-right: 16px;
+    }
+
+    .round-button--ml-16px {
+        margin-left: 16px;
+    }

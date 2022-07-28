@@ -1,0 +1,21 @@
+@media screen and (max-width: 767px) {
+    .repair__body .swiper-pagination {
+        bottom: initial;
+
+        margin-top: 16px;
+    }
+
+    .repair__body .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+
+        line-height: 12px;
+        font-size: 12px;
+
+        background: #DDDDDD;
+    }
+
+    .repair__body .swiper-pagination-bullet-active {
+        background: #B5B6BC;
+    }
+}
