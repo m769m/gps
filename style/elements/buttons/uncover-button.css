@@ -50,5 +50,5 @@
         }
 
 div.uncover-block--open {
-    height: 100%;
+    height: auto;
 }
